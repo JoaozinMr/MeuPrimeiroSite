@@ -1,0 +1,172 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#geral {
+  height: 100%;
+  width: 100vw;
+  background-image: url(assets/CheeseBurguer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -4rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #131220;
+  height: 8rem;
+  width: 100vw;
+  position: fixed;
+}
+
+.navi {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5rem;
+  width: 50rem;
+}
+
+.navi p {
+  transition: ease-in-out 0.4s;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.navi p:hover {
+  color: rgb(94, 167, 200);
+}
+
+.navlink {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+img {
+  width: 20rem;
+}
+
+button {
+  border: solid #ffffff;
+  background-color: rgba(201, 76, 76, 0);
+  color: aliceblue;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: ease-in 0.2s;
+  transition: ease-out 0.4s;
+  margin-right: 5rem;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: black;
+  border: solid #ffffff;
+}
+
+.mapa {
+  font-size: 20px;
+  width: 500px;
+  height: 450px;
+  color: aliceblue;
+}
+
+.map_sobre {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 5rem;
+  padding-top: 2rem;
+  height: 35rem;
+  width: 96vw;
+  background: #000000;
+}
+#iframe {
+  border: solid black 5px;
+  width: 470px;
+  height: 330px;
+}
+.Sobre {
+  width: 630px;
+  height: 420px;
+  padding: 0;
+  color: aliceblue;
+}
+
+#Sobre_in {
+  font-size: 1.2rem;
+  color: aliceblue;
+}
+
+#cont_sobre {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#cont_open {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+figure {
+  cursor: pointer;
+}
+#map_bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(assets/restaurante.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#open {
+  height: 25rem;
+  width: 30rem;
+}
+
+/*----FOOTER---*/
+#divisor {
+  width: 900px;
+}
+footer {
+  color: aliceblue;
+  margin-right: 1rem;
+  width: 100vw;
+  height: 6rem;
+  background-color: #131220;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.conteudo_contato {
+  display: flex;
+  width: 100vw;
+  margin-left: 0;
+  justify-content: space-around;
+}
+
+footer a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+i {
+  font-size: 2rem;
+}
